@@ -1,0 +1,52 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: 'Josefin', Sans;
+  font-size: 16px;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+}
+
+.flex-child:first-child {
+  margin-right: 0;
+  margin-left: 50px;
+}
+
+.flex-child:second-child {
+  margin-right: 50px;
+}
+
+.text {
+  background-image: url("https://cdn.glitch.com/d3120b40-fcbe-419c-a76e-84c4775d56e4%2Fbg-pattern-desktop.svg?v=1610330345942");
+}
+
+.image {
+  width: 400px;
+  height: auto;
+}
