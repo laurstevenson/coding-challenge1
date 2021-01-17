@@ -4,6 +4,7 @@ body {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 16px;
   margin: 2em;
+  background-color: #e8e8e8;
 }
 
 h1 {
@@ -30,36 +31,34 @@ h1 {
 .info-text {
   color: hsl(0, 36%, 70%);
   font-weight: 800;
-  padding-left: 14%;
   padding-right: 15%;
   padding-top: 5%;
   font-weight: 400;
 }
 
-.large-text {
-  padding-left: 100px;
+.padding-left-14 {
+  padding-left: 14%;
 }
 
 .bkg-image {
   background-image: url("https://cdn.glitch.com/d3120b40-fcbe-419c-a76e-84c4775d56e4%2Fbg-pattern-desktop.svg?v=1610330345942");
+  background-color: #ffbdbd;
+  background-size: cover;
 }
 
 
 .logo {
   padding-top: 10%;
-  padding-left: 14%;
   padding-bottom: 10%;
   width: 30%
 }
 
-.email-styles {
-  padding-left: 14%;
+.email-input {
   color: hsl(0, 93%, 68%);
 }
 
 img {
-  width: 150%;
-  padding-right: 10%;
+  width: 100%;
 }
 
 h1.pink {
@@ -74,4 +73,21 @@ h1.black {
   font-weight: 600;
   letter-spacing: 10px;
   line-height: 80%;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+#img1 {
+  display: block;
+}
+
+#img2 {
+  display:none
+}
+
+@media all and (max-width: 375px) {
+    #img1 {display: none;}
+    #img2 {display: block;}
 }
